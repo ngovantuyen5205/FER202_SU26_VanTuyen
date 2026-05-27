@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(180deg,#f6f9ff 0%, #eef4ff 100%);
+  color: #222;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Layout tweaks */
+.container {
+  max-width: 1100px;
+}
+
+/* Navbar subtle shadow */
+.navbar {
+  box-shadow: 0 6px 18px rgba(16,24,40,0.06);
+}
+
+/* Hero style */
+.card.text-center.bg-primary {
+  background: linear-gradient(90deg,#0d6efd 0%, #0b5ed7 100%);
+  border: none;
+  border-radius: 12px;
+  color: #fff;
+  box-shadow: 0 12px 40px rgba(13, 110, 253, 0.12);
+}
+
+/* Registration card */
+.card.p-4.shadow-sm {
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(15,23,42,0.06);
+}
+
+.form-label { font-weight: 600; }
+.form-control { border-radius: 8px; padding: 12px; }
+
+.btn-primary { border-radius: 8px; padding: 8px 18px; }
+.btn-secondary { border-radius: 8px; padding: 8px 18px; }
+
+/* Make hero content stand out */
+.hero-lead { opacity: 0.95; font-size: 1.1rem; }
+
+/* Registration screen styling */
+.registration-screen {
+  min-height: 100vh;
+  background: radial-gradient(circle at top left, rgba(59,130,246,0.16), transparent 24%),
+    radial-gradient(circle at bottom right, rgba(14,165,233,0.14), transparent 22%),
+    linear-gradient(135deg, #eef2ff 0%, #dbeafe 45%, #eff6ff 100%);
+}
+
+.registration-card {
+  border-radius: 28px;
+  overflow: hidden;
+  background: transparent;
+}
+
+.registration-card-banner {
+  background: linear-gradient(135deg, #6366f1 0%, #22d3ee 100%);
+}
+
+.registration-badge-large {
+  width: 72px;
+  height: 72px;
+  margin: 0 auto 18px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  background: rgba(255,255,255,0.18);
+  border-radius: 22px;
+  box-shadow: 0 18px 40px rgba(15,23,42,0.16);
+}
+
+.registration-box {
+  border-radius: 28px;
+  border: 1px solid rgba(59,130,246,0.16);
+  background: linear-gradient(180deg, rgba(255,255,255,0.96), rgba(248,250,252,0.96));
+  box-shadow: 0 30px 80px rgba(15,23,42,0.12);
+  overflow: hidden;
+}
+
+.registration-header {
+  background: linear-gradient(135deg, #4338ca 0%, #06b6d4 100%);
+  padding: 2rem 1.5rem 1.6rem;
+  color: #fff;
+}
+
+.registration-header h2 {
+  margin-bottom: 0.55rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.registration-subtitle {
+  opacity: 0.88;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+.registration-form {
+  background: #fff;
+}
+
+.registration-form-group .form-control {
+  background: #f8fafc;
+  border: 1px solid rgba(15,23,42,0.12);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.registration-form-group .form-control:focus {
+  border-color: #38bdf8;
+  box-shadow: 0 0 0 0.35rem rgba(56,189,248,0.15);
+}
+
+.registration-btn-primary {
+  background: linear-gradient(135deg, #2563eb 0%, #06b6d4 100%);
+  border: none;
+  box-shadow: 0 12px 24px rgba(14,165,233,0.24);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.registration-btn-primary:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 16px 26px rgba(14,165,233,0.28);
+}
+
+.registration-btn-secondary {
+  border-radius: 12px;
+}
+
+.registration-note {
+  font-size: 0.95rem;
+  color: #475569;
+}
+
+.form-text {
+  font-size: 0.88rem;
+}
